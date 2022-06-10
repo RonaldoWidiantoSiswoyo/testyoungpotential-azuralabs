@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  outline: none;
+}
+.container {
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  background-image: url(city.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.kalkulator {
+  padding: 1em;
+  border-radius: 30px;
+  background-color: #ecf0f3;
+  border: 1px solid #bebebe;
+  display: grid;
+  grid-template-columns: repeat(4, 68px);
+  box-shadow: inset -5px - 5px 12px #fff, 5px 5px 12 px rgba(0, 0, 0, 0.16);
+}
+input {
+  height: 70px;
+  width: 270px;
+  grid-column: span 4;
+  background-color: #ecf0f3;
+  box-shadow: inset -5px -5px 12px #fff, 5px 5px 12 px rgba(0, 0, 0, 0.16);
+  border: 1px solid #bebebe;
+  border-radius: 30px;
+  color: rgb(70, 70, 70);
+  font-size: 50px;
+  text-align: end;
+  margin: auto;
+  margin-top: 40px;
+  margin-bottom: 30px;
+  padding: 20px;
+}
+
+button {
+  background-color: #ecf0f3;
+  height: 50px;
+  width: 50px;
+  border: 1px solid #bebebe;
+  border-radius: 50%;
+  box-shadow: -5px -5px 12px #fff, 5px 5px 12 px rgba(0, 0, 0, 0.16);
+  margin: 10px;
+  font-size: 1rem;
+  font-weight: bold;
+  color: red;
+}
+button:hover {
+  background-color: red;
+  color: white;
+  border: none;
+}
+.hasil {
+  border-radius: 45px;
+  box-shadow: inset -5px -5px 12px #fff, 5px 5px 12 px rgba(0, 0, 0, 0.16);
+  background-color: #ecf0f3;
+}
