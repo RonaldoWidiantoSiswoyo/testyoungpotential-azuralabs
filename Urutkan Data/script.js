@@ -55,5 +55,4 @@ if (data[i].harga == true) {
     return a[1] - b[1];
   });
 }
-return arrayData;
 console.log(arrayData);
