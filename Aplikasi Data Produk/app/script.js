@@ -53,7 +53,7 @@ function edit(id) {
 }
 
 function hapus(id) {
-  produk.pop(id);
+  produk.pop(produk[id]);
   tampil();
 }
 
