@@ -56,12 +56,7 @@ function hapus(id) {
   produk.pop(id);
   tampil();
 }
-// const btnHapus = document.getElementsByClassName(".btn-hapus");
-// function hapus(id) {
-//   if (btnHapus === 1) {
-//     produk.splice(id, -1);
-//   }
-// }
+
 function preview() {}
 
 tampil();
